@@ -46,16 +46,18 @@ To create, build, and execute a simple “Hello World” program in QNX on two t
 
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
-    printf("Hello World!!!\n");
-    printf("Name:Arun\n");
-    printf("Regisgter Number:1234567\n");
-    return 0;
+	puts("Hello, World from QNX!\n");
+	puts("Name: Abinandhan M \n");
+	puts("Register.Number: 212223060004\n");/* prints Hello World!!! */
+	return EXIT_SUCCESS;
 }
 ```
 ## Output
-![Output Image](exp1.png)
+![WhatsApp Image 2026-03-18 at 8 27 47 AM](https://github.com/user-attachments/assets/bbcd342d-3f60-477b-97f8-2712870d997f)
+
 ---
 
 ## Result
